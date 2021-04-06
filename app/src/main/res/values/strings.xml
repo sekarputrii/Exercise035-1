@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Exercise035</string>
+    <string name="Email">Masukkan Email</string>
+    <string name="Password">Masukkan Password</string>
+    <string name="Submit">SUBMIT</string>
+    <string name="BelumDaftar">Belum Terdaftar?</string>
+    <string name="Pendaftaran">Pendaftaran</string>
+    <string name="Nama">Masukkan Nama Lengkap</string>
+    <string name="Alamat">Masukkan Alamat Rumah</string>
+    <string name="Email2">Masukkan Email</string>
+    <string name="Password2">Masukkan Password</string>
+    <string name="Password3">Masukkan Kembali Password</string>
+    <string name="Batal">BATAL</string>
+    <string name="Daftar">DAFTAR</string>
+    <string name="DataKontak">Data Kontak</string>
+    <string name="DetailKontak">Detail Kontak</string>
+    <string name="NamaKontak">Nama Kontak</string>
+    <string name="tvNamaKontak"> Nama Kontak</string>
+    <string name="NomorTelepon">Nomor Telepon</string>
+    <string name="tvNomorTelepon">Nomor Telepon</string>
+    <string name="LihatData">Lihat Data</string>
+    <string name="editData">Edit Data</string>
+
 </resources>
