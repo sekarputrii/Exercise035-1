@@ -55,4 +55,19 @@ public class ListViewAdapter extends BaseAdapter {
         //Mengembalikan nilai ke variabel view
         return view;
     }
+    public void SearchNama(String query) {
+        DataKontak.classNamaArrayList.clear();
+        if (query.isEmpty()) {
+            DataKontak.classNamaArrayList.addAll(arrayList);
+        }
+        else {
+            query = query.toLowerCase();
+            for (ClassNama SearchData : arrayList) {
+                if (SearchData.getNama().toLowerCase().contains(query)) {
+                    DataKontak.classNamaArrayList.add(SearchData);
+                }
+            }
+        }
+        notifyDataSetChanged();
+    }
 }

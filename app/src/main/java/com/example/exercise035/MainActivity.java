@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
                     b.putString("Parameter1", Email.trim());
                     b.putString("Parameter2", Password.trim());
 
-                    Intent intent = new Intent(MainActivity.this, Pendaftaran.class);
+                    Intent intent = new Intent(getApplicationContext(), DataKontak.class);
                     intent.putExtras(b);
-                    startActivity(new Intent(getApplicationContext(), DataKontak.class ));
+                    startActivity(intent);
                 } else if (!Email.equals("sekar@gmail.com") && Password.equals("sekar83")) {
                     Toast s = Toast.makeText(getApplicationContext(),
                             "Gagal LOG-IN (Email yang dimasukkan tidak terdaftar)", Toast.LENGTH_LONG);

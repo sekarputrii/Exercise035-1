@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -41,7 +42,7 @@ public class DataKontak extends AppCompatActivity {
                 String nama = classNamaArrayList.get(position).getNama();
                 bundle.putString("a", nama.trim());
                 PopupMenu pm = new PopupMenu(getApplicationContext(), view);
-                pm.inflate(R.menu.popup_menu);
+                pm.inflate(R.menu.menu);
                 pm.show();
             }
         });
